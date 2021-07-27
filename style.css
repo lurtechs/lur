@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.lur{
+    color: blanchedalmond;
+}
+
+/*Calling*/
+
+.phonelink{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    right: 0; /* Set to the right */
+    margin: 30px; /* Add space around background */
+  }
+  .phoneicon{
+    width: 50px; /* Set width of icon */
+    height: 50px; /* Set height of icon */
+  }
+  @media screen and (max-width: 580px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+  }
+  @media screen and (min-width: 581px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+        display: block; /* On large screens make phone icon appear */
+    }
+  }
+
+  .phonelink2{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    left: 10; /* Set to the right */
+    margin: 30px; /* Add space around background */
+    
+  }
+
+  /*Calling Finish*/
+
+  /*carousel starth*/
