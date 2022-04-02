@@ -57,10 +57,7 @@ body {
 /* Calculator */
 
 .wrapper  {
-	width: 400px;
-	position: absolute;
-
-	
+	width: 350px;
 	
 	background: #e87a7a;
 	padding: 50px;
@@ -77,12 +74,12 @@ input[type="radio"] {
 .pad{
     width: 600px;
     height: 300px;
-	margin-top: -6%;
+	
 border-radius: 21px;
 	color: black;
 	
 	background: #e87a7a;
-    margin-left: 50%;
+   
 }
 
 .nutri{
